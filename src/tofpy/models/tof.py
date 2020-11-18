@@ -2,10 +2,10 @@ import numpy as np
 
 from abc import ABCMeta, abstractmethod
 
-from sklearn.base import BaseEstimator, ClassifierMixin
+from sklearn.base import BaseEstimator, ClassifierMixin, OutlierMixin
 from scipy.spatial import cKDTree
 
-class TOF(BaseEstimator, ClassifierMixin):
+class TOF(BaseEstimator, ClassifierMixin, OutlierMixin):
     #__metaclass__ = ABCMeta
 
     def __init__(self, cutoff_n=1., k=None, q=2, centrality_func=np.mean):

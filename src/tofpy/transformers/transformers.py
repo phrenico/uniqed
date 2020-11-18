@@ -5,6 +5,11 @@ import pandas as pd
 
 class TimeDelayEmbedder(BaseEstimator, TransformerMixin):
     def __init__(self, d=3, tau=1):
+        """Time delay embedding
+
+        :param int d: embedding dimension
+        :param int tau: embedding delay
+        """
         self.d = d
         self.tau = tau
 
@@ -19,15 +24,8 @@ class TimeDelayEmbedder(BaseEstimator, TransformerMixin):
         return self.fit(x).transform(x)
 
     def _embedding(self, x, d, tau):
-
-        # embedded length
-        #print len(x), d, tau
         embedded_length = len(x) - (d - 1) * tau
-
-        # initialize embedding matrix
         X = np.zeros((embedded_length, d))
-
-        # fill up initialized matrix column by column
         for i in range(d):
             X[:, i] = x[i * tau: embedded_length + i * tau]
         return X
