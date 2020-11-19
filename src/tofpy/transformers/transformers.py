@@ -64,8 +64,9 @@ class TransformYTrue(BaseEstimator, TransformerMixin):
     def _transform_y_true(self, x):
         """Transforms y_true to shorter version aligned with a specific embedding (d, tau)
 
-        :param x: array with values
+        :param numpy.ndarray x: array with values
         :return: array truncated symmetrically at the begining and at the end
+        :rtype: numpy.ndarray
         """
         return x[self._get_faketime_axis(self.d, self.tau)]
 

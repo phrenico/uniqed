@@ -15,6 +15,8 @@ class TestTOF(TestCase):
     def test_predict(self):
         X = self._gen_data()
         TOF().fit(X).predict(X)
+        TOF(cutoff_n=70).fit(X).predict(X)
+
 
     def test__get_outliers_inds(self):
         X = self._gen_data()
@@ -32,6 +34,14 @@ class TestTOF(TestCase):
         X = self._gen_data()
         tof = TOF().fit(X)
         tof._compute_cutoff(cutoff_n=100)
+        with self.assertRaises(ValueError):
+            tof._compute_cutoff(cutoff_n='goosebump')
+
+    def test__compute_cutoff2(self):
+        X = self._gen_data()
+        tof = TOF(k=21).fit(X)
+        tof._compute_cutoff(cutoff_n=100)
+
 
     def test__compute_p_value(self):
         x = np.arange(100)

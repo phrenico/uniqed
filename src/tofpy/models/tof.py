@@ -7,8 +7,6 @@ from scipy.spatial import cKDTree
 
 
 class TOF(BaseEstimator, ClassifierMixin, OutlierMixin):
-    # __metaclass__ = ABCMeta
-
     def __init__(self, cutoff_n=1.0, k=None, q=2, centrality_func=np.mean):
         """Constructor for Temporal Outlier Factor detector
 
