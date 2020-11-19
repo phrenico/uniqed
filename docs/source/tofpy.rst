@@ -11,7 +11,6 @@ Subpackages
    tofpy.models
    tofpy.runners
    tofpy.transformers
-   tofpy.visualization
 
 Module contents
 ---------------
