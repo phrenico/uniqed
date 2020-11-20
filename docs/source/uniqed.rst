@@ -1,5 +1,5 @@
-tofpy package
-=============
+uniqed package
+==============
 
 Subpackages
 -----------
@@ -7,15 +7,15 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
-   tofpy.data
-   tofpy.models
-   tofpy.runners
-   tofpy.transformers
+   uniqed.data
+   uniqed.models
+   uniqed.runners
+   uniqed.transformers
 
 Module contents
 ---------------
 
-.. automodule:: tofpy
+.. automodule:: uniqed
    :members:
    :undoc-members:
    :show-inheritance:

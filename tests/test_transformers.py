@@ -1,6 +1,6 @@
 from unittest import TestCase
 import numpy as np
-from tofpy.transformers.transformers import TimeDelayEmbedder, TransformYTrue, invertit, _make_result_df
+from uniqed.transformers.transformers import TimeDelayEmbedder, TransformYTrue, invertit, _make_result_df
 
 
 class TestTimeDelayEmbedder(TestCase):

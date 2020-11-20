@@ -14,12 +14,12 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('../'))
-sys.path.insert(0, os.path.abspath('../../'))
+
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'tofpy'
+project = 'uniqed'
 copyright = '2020, Zsigmond Benko, Tamas Babel, Zoltan Somogyvari'
 author = 'Zsigmond Benko, Tamas Babel, Zoltan Somogyvari'
 
@@ -32,7 +32,12 @@ release = '0.0.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.coverage']
+extensions = ["sphinx.ext.autodoc"
+]
+autodoc_default_options = {"members": True,
+                           "undoc-members": True,
+                           "private-members": True,
+                           "member-order": 'bysource'}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

@@ -1,7 +1,7 @@
 import pandas as pd
 
-from tofpy.models.tof import TOF
-from tofpy.transformers.transformers import (
+from uniqed.models.tof import TOF
+from uniqed.transformers.transformers import (
     TimeDelayEmbedder,
     TransformYTrue,
     _make_result_df,

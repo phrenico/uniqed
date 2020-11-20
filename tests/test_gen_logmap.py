@@ -1,5 +1,5 @@
 from unittest import TestCase
-from tofpy.data.gen_logmap import generate_logmapdata, basic, switch
+from uniqed.data.gen_logmap import generate_logmapdata, basic, switch
 import numpy as np
 
 

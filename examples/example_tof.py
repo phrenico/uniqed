@@ -1,6 +1,6 @@
-from tofpy.models.tof import TOF
-from tofpy.data.gen_logmap import generate_logmapdata
-from tofpy.transformers.transformers import TimeDelayEmbedder
+from uniqed.models.tof import TOF
+from uniqed.data.gen_logmap import generate_logmapdata
+from uniqed.transformers.transformers import TimeDelayEmbedder
 import matplotlib.pyplot as plt
 
 # Generate some data

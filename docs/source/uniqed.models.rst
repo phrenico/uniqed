@@ -1,13 +1,13 @@
-tofpy.models package
-====================
+uniqed.models package
+=====================
 
 Submodules
 ----------
 
-tofpy.models.tof module
------------------------
+uniqed.models.tof module
+------------------------
 
-.. automodule:: tofpy.models.tof
+.. automodule:: uniqed.models.tof
    :members:
    :undoc-members:
    :show-inheritance:
@@ -15,7 +15,7 @@ tofpy.models.tof module
 Module contents
 ---------------
 
-.. automodule:: tofpy.models
+.. automodule:: uniqed.models
    :members:
    :undoc-members:
    :show-inheritance:

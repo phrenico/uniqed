@@ -1,7 +1,7 @@
-tofpy
-=====
+src
+===
 
 .. toctree::
    :maxdepth: 4
 
-   tofpy
+   uniqed

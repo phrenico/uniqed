@@ -1,6 +1,6 @@
 from unittest import TestCase
 import numpy as np
-from tofpy.models.tof import TOF
+from uniqed.models.tof import TOF
 import matplotlib.pyplot as plt
 
 

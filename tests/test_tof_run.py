@@ -1,7 +1,7 @@
 from unittest import TestCase
 from pandas import DataFrame
 import numpy as np
-from tofpy.runners.tof_run import detect_outlier
+from uniqed.runners.tof_run import detect_outlier
 
 
 class Test(TestCase):
