@@ -29,7 +29,7 @@ Install it directly from the source:
 Simple example
 --------------
 This is a simple example:
-:: code: python
+::
 
   from tofpy.data.gen_logmap import generate_logmapdata
   from tofpy.runners.tof_run import detect_outlier
