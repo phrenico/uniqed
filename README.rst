@@ -13,7 +13,7 @@ The uniqed package
 
 
 
-This is a python implementation of the Temporal Outlier Factor [1]_ (TOF) anomaly detection method.
+The python implementation of the Temporal Outlier Factor [1]_ (TOF) anomaly detection method.
 
 
 Installation instructions
