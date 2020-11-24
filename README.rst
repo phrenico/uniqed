@@ -9,7 +9,7 @@ The uniqed package
     :target: https://travis-ci.com/phrenico/uniqed
 
 .. image:: https://coveralls.io/repos/github/phrenico/uniqed/badge.svg?branch=master
-:target: https://coveralls.io/github/phrenico/uniqed?branch=master
+  :target: https://coveralls.io/github/phrenico/uniqed?branch=master
 
 
 
