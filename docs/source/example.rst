@@ -1,7 +1,8 @@
 Simple example
 --------------
 This is a simple example:
-::
+
+.. code-block:: python
 
     from uniqed.data.gen_logmap import generate_logmapdata
     from uniqed.runners.tof_run import detect_outlier

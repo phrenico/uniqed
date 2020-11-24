@@ -1,6 +1,6 @@
 include setup.py
 include MANIFEST.in
-include LICENSE
+include LICENSE.txt
 include README.md
 
 graft tests
