@@ -1,12 +1,10 @@
 Installation instructions
 -------------------------
 
-.. Installation from pypi:
-   ::
-   pip install uniqed
+Installation from PyPI:
+::
+    pip install uniqed
 
-    or 
-
-Install it directly from the source:
+or installation from the source:
 ::
     pip install .

@@ -24,7 +24,7 @@ copyright = '2020, Zsigmond Benko, Tamas Babel, Zoltan Somogyvari'
 author = 'Zsigmond Benko, Tamas Babel, Zoltan Somogyvari'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.0'
+release = '0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
