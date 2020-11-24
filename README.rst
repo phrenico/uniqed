@@ -11,6 +11,6 @@ The uniqed package
 
 This is a python implementation of the Temporal Outlier Factor [1]_ (TOF) anomaly detection method.
 
-.. include:: ./docs/source/installation.rst
+.. _relative link: docs/source/installation.rst
 .. include:: ./docs/source/example.rst
 .. include:: ./docs/source/resources.rst
