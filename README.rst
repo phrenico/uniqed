@@ -8,6 +8,10 @@ The uniqed package
 .. image:: https://travis-ci.com/phrenico/uniqed.svg?branch=master
     :target: https://travis-ci.com/phrenico/uniqed
 
+.. image:: https://coveralls.io/repos/github/phrenico/uniqed/badge.svg?branch=master
+:target: https://coveralls.io/github/phrenico/uniqed?branch=master
+
+
 
 This is a python implementation of the Temporal Outlier Factor [1]_ (TOF) anomaly detection method.
 
