@@ -2,8 +2,8 @@ The uniqed package
 ==================
 
 .. image:: https://readthedocs.org/projects/uniqed/badge/?version=latest
-:target: https://uniqed.readthedocs.io/en/latest/?badge=latest
-:alt: Documentation Status
+  :target: https://uniqed.readthedocs.io/en/latest/?badge=latest
+  :alt: Documentation Status
 
 .. image:: https://travis-ci.com/phrenico/uniqed.svg?branch=master
     :target: https://travis-ci.com/phrenico/uniqed
