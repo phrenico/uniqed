@@ -1,5 +1,3 @@
-The uniqed package
-==================
 
 .. image:: https://readthedocs.org/projects/uniqed/badge/?version=latest
   :target: https://uniqed.readthedocs.io/en/latest/?badge=latest
@@ -13,7 +11,10 @@ The uniqed package
 
 
 
-The python implementation of the Temporal Outlier Factor [1]_ (TOF) anomaly detection method.
+The uniqed package
+==================
+
+Simple python implementation of the Temporal Outlier Factor [1]_ (TOF) anomaly detection method.
 
 
 Installation instructions
@@ -76,7 +77,7 @@ This is a simple example:
     plt.show()
 
 
-.. image:: examples/example_run.png
+.. image:: https://raw.githubusercontent.com/phrenico/uniqed/master/examples/example_run.png
 
 
 References

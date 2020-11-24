@@ -7,7 +7,7 @@ Welcome to uniqed's documentation!
 ==================================
 
 
-This is a python implementation of the Temporal Outlier Factor [1]_ (TOF) anomaly detection method.
+Simple python implementation of the Temporal Outlier Factor [1]_ (TOF) anomaly detection method.
 
 .. toctree::
    :maxdepth: 2
