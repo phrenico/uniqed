@@ -9,7 +9,7 @@ An example readin:
 ```python
 import pandas as pd
 
-data = pd.read_csv("./logmap_tent/0.csv")
+data = pd.read_csv("./simulations/logmap_tent/0.csv")
 
 data.head()
 ```
