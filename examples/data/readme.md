@@ -2,7 +2,7 @@
 
 The data series are in csv format with one header-line at the top.
 In the **logmap_linear**, **logmap_tent**, and **rw_tent** data-sets there are two columns, the first column is the value of the time series and the second column is the coresponding indicator variable, whether the time-instance is anomalous or not.
-The data-series in the ***sim_ecg** have an additional time axis as the first column.
+The data-series in the **sim_ecg** folder have an additional time axis as the first column.
 
 An example readin:
 
